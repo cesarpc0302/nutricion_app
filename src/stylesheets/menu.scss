@@ -1,0 +1,39 @@
+$bg-color: #f0f0f0;
+$font-color: black;
+$hover-bg-color: dimgrey;
+$hover-font-color: white;
+
+.nav{
+	margin-left: 0;
+	width: 200px;
+	height: inherit;
+	padding-top: 37px;
+    float: left;
+    height: 100%;
+    position: fixed;
+    background-color: $bg-color;
+    color: $font-color;
+}
+
+.nav-link {
+	width: 100%;
+	padding: 8px 16px;
+	display: inline-block;
+	float: none;
+	box-sizing: border-box;
+}
+
+.sub-nav-link{
+	padding: 6px 32px;
+	font-size: 14px;
+}
+
+.nav-link-buttom{
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.nav-link-buttom:hover {
+	background-color: $hover-bg-color;
+	color: $hover-font-color;
+}

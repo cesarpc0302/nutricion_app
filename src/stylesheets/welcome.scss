@@ -1,0 +1,15 @@
+.welcome {
+	padding-top: 60px;
+}
+
+.half-display {
+	width: 35%;
+	float: left;
+	padding-left: 5%;
+}
+
+@media screen and (max-width: 768px) {
+	.half-display {
+		width: 100%;
+	}
+}

@@ -1,0 +1,50 @@
+.formComidas {
+	width: -webkit-fill-available;
+	min-width: 376px;
+    max-width: 100%;
+    float: left;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.shareholder{
+    display: inline-flex;
+    width: -webkit-fill-available;
+}
+
+.inputTime {
+	width: -webkit-fill-available;
+}
+
+.input, .button {
+	padding: 5px 10px;
+    margin: 8px 16px;
+}
+
+.inputNumber {
+	margin-right: 0;
+    min-width: 40px;
+    float: left;
+    width: 10%;
+
+}
+
+.inputDiv {
+    float: left;
+    width: 100%;
+    display: flex;
+}
+
+.buttonAdd {
+	margin-top: 25px;	
+}
+
+.inputMeal {
+	width: -webkit-fill-available;
+	min-width: 200px;
+	font-size: 12px;
+}
+
+.smallButton {
+	margin-right: 0;
+}

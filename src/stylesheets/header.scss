@@ -1,0 +1,27 @@
+$bg-color: black;
+$font-color: white;
+$hover-bg-color: dimgrey;
+$hover-font-color: white;
+
+.header {
+	z-index: 1;
+	background-color: $bg-color;
+	color: $font-color;
+	margin: 0;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-option {
+	float: left;
+	padding: 8px 16px;
+	font-size: 18px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.header-option:hover {
+	background-color: $hover-bg-color;
+	color: $hover-font-color;
+}
